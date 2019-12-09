@@ -7,6 +7,8 @@ public class MainApplication {
 		displayGreeting(greeting);
 		greeting = () -> System.out.println("Good Afternoon");
 		displayGreeting(greeting);
+		greeting = () -> System.out.println("Good Night");
+		displayGreeting(greeting);
 	}
 	public static void displayGreeting(Greeting greeting) {
 		greeting.greet();
